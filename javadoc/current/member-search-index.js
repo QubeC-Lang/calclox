@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"dev.thriving.oss.java.library.template","c":"JavaLibraryTemplate","l":"JavaLibraryTemplate()","u":"%3Cinit%3E()"},{"p":"dev.thriving.oss.java.library.template","c":"JavaLibraryTemplate","l":"toFunkyCase(String)","u":"toFunkyCase(java.lang.String)"}];updateSearchResults();
+memberSearchIndex = [{"p":"tech.ixor.calclox","c":"JavaLibraryTemplate","l":"JavaLibraryTemplate()","u":"%3Cinit%3E()"},{"p":"tech.ixor.calclox","c":"JavaLibraryTemplate","l":"toFunkyCase(String)","u":"toFunkyCase(java.lang.String)"}];updateSearchResults();
