@@ -1,4 +1,4 @@
-package dev.thriving.oss.java.library.template;
+package tech.ixor.calclox;
 
 /**
  * Javadoc for {@link JavaLibraryTemplate}

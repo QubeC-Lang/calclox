@@ -1,4 +1,4 @@
-group = "dev.thriving.oss"
+group = "tech.ixor"
 
 plugins {
     alias(libs.plugins.publish)
