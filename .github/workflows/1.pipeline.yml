@@ -57,19 +57,19 @@ jobs:
       github.event_name == 'workflow_dispatch'
       && inputs.type != '...no release'
 
-  publish_sonatype:
-    name: Publish artifact (Maven Central)
-    uses: ./.github/workflows/callable.publish-sonatype.yml
-    secrets: inherit
-    needs: integration_test
-    if: |
-      (
-        github.event_name != 'workflow_dispatch'
-        || inputs.type == '...no release'
-      ) && ( 
-        github.ref == 'refs/heads/main' 
-        || github.ref_type == 'tag' 
-      )
+  # publish_sonatype:
+  #   name: Publish artifact (Maven Central)
+  #   uses: ./.github/workflows/callable.publish-sonatype.yml
+  #   secrets: inherit
+  #   needs: integration_test
+  #   if: |
+  #     (
+  #       github.event_name != 'workflow_dispatch'
+  #       || inputs.type == '...no release'
+  #     ) && ( 
+  #       github.ref == 'refs/heads/main' 
+  #       || github.ref_type == 'tag' 
+  #     )
 
   publish_javadoc:
     name: Publish javadoc (GitHub Pages)
