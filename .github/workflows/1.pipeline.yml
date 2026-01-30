@@ -24,6 +24,10 @@ jobs:
 
   build:
     name: Build + unit tests
+    permissions:
+      contents: read
+      checks: write
+      id-token: write
     uses: ./.github/workflows/callable.build.yml
     if: | # avoid unnecessary pipeline runs during artifact release process ('gradle release plugin')
       !contains(github.event.head_commit.message, '[Gradle Release Plugin] - pre tag commit')
@@ -43,6 +47,10 @@ jobs:
 
   integration_test:
     name: Integration tests
+    permissions:
+      contents: read
+      checks: write
+      id-token: write
     uses: ./.github/workflows/callable.integration-test.yml
     needs: build
 
