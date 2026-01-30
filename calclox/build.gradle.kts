@@ -3,14 +3,14 @@ group = "tech.ixor"
 object Meta {
     const val release = "https://ossrh-staging-api.central.sonatype.com/service/local/"
     const val snapshot = "https://central.sonatype.com/repository/maven-snapshots/"
-    const val desc = "OSS GitHub Java Library Template Repository"
-    const val license = "Apache-2.0"
-    const val licenseUrl = "https://opensource.org/licenses/Apache-2.0"
+    const val desc = "A Java-based Programmable Calculator Language & Interpreter"
+    const val license = "AGPL-3.0"
+    const val licenseUrl = "https://opensource.org/licenses/AGPL-3.0"
     const val githubRepo = "QubeC-Lang/calclox"
     const val developerId = "Qubik65536"
-    const val developerName = "Your Name"
-    const val developerOrganization = "ACME Corporation"
-    const val developerOrganizationUrl = "https://yourdomain.com"
+    const val developerName = "Qian Qian"
+    const val developerOrganization = "iXOR Technology"
+    const val developerOrganizationUrl = "https://ixor.tech"
 }
 
 java {
