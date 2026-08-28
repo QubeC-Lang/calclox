@@ -60,7 +60,7 @@ for (var i = 1; i <= 3; i = i + 1) {
 CalcLox intentionally omits classes and inheritance. The built-in `clock()` returns Unix time in
 seconds, and `eval(string)` evaluates a CalcLox expression in the current program environment.
 
-## Resources and credits
+## Resources
 
 Full documentation:
 
@@ -68,4 +68,7 @@ Full documentation:
 - [CalcLox language guide](docs/language-guide.md)
 - [CalcLox language specification](docs/language-specification.md)
 
+## Credits
+
 - [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom. This book introduces the [Lox language](https://craftinginterpreters.com/the-lox-language.html). This book also contains [a guide for building a tree-walk interpreter](https://craftinginterpreters.com/a-tree-walk-interpreter.html), which was used as a reference for building the CalcLox interpreter.
+- Project Structure Generated from <https://github.com/thriving-dev/java-library-template>.
