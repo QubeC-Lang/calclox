@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Use e.g. <a href="https://testcontainers.com/">testcontainers</a> for integration tests...
  */
 class JavaLibraryTemplateIntegrationTest {
-
     @Test
     void toFunkyCase() {
         // given

@@ -4,7 +4,6 @@ package tech.ixor.calclox;
  * Javadoc for {@link JavaLibraryTemplate}
  */
 public class JavaLibraryTemplate {
-
     /**
      * Converts input to fUnKyCaSe...
      *
@@ -25,5 +24,4 @@ public class JavaLibraryTemplate {
 
         return new String(chars);
     }
-
 }
