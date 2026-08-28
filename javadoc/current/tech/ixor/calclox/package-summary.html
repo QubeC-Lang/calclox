@@ -26,6 +26,7 @@ loadScripts(document, 'script');</script>
 <div class="top-nav" id="navbar-top"><button id="navbar-toggle-button" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation links"><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span><span class="nav-bar-toggle-icon">&nbsp;</span></button>
 <div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
 <ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
+<li><a href="../../../index.html">Overview</a></li>
 <li class="nav-bar-cell1-rev">Package</li>
 <li>Class</li>
 <li><a href="package-tree.html">Tree</a></li>
@@ -36,8 +37,8 @@ loadScripts(document, 'script');</script>
 <li>
 <p>Package:</p>
 <ul>
-<li>Description</li>
-<li>Related Packages</li>
+<li><a href="#package-description">Description</a></li>
+<li><a href="#related-package-summary">Related Packages</a></li>
 <li><a href="#class-summary">Classes and Interfaces</a></li>
 </ul>
 </li>
@@ -47,8 +48,8 @@ loadScripts(document, 'script');</script>
 <div id="navbar-sub-list">
 <ul class="sub-nav-list">
 <li>Package:&nbsp;</li>
-<li>Description&nbsp;|&nbsp;</li>
-<li>Related Packages&nbsp;|&nbsp;</li>
+<li><a href="#package-description">Description</a>&nbsp;|&nbsp;</li>
+<li><a href="#related-package-summary">Related Packages</a>&nbsp;|&nbsp;</li>
 <li><a href="#class-summary">Classes and Interfaces</a></li>
 </ul>
 </div>
@@ -67,17 +68,103 @@ loadScripts(document, 'script');</script>
 </div>
 <hr>
 <div class="package-signature">package <span class="element-name">tech.ixor.calclox</span></div>
+<section class="package-description" id="package-description">
+<div class="block">Embeds the CalcLox language in a host application.
+ <p>
+ Use <a href="CalcLoxRunner.html" title="class in tech.ixor.calclox"><code>CalcLoxRunner</code></a> to execute source code and implement
+ <a href="CalculatorFrontend.html" title="interface in tech.ixor.calclox"><code>CalculatorFrontend</code></a> to provide numeric variables and receive
+ values produced by <code>output</code> statements. Each execution uses an isolated interpreter;
+ numeric declarations and assignments are synchronized with the frontend's mutable variable map.
+ </p>
+ <p>
+ Invalid source and runtime failures are reported as
+ <a href="exceptions/CalcLoxRunnerError.html" title="class in tech.ixor.calclox.exceptions"><code>CalcLoxRunnerError</code></a> instances with source-line information.
+ </p></div>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="CalcLoxRunner.html" title="class in tech.ixor.calclox"><code>CalcLoxRunner</code></a></li>
+<li><a href="CalculatorFrontend.html" title="interface in tech.ixor.calclox"><code>CalculatorFrontend</code></a></li>
+<li><a href="exceptions/CalcLoxRunnerError.html" title="class in tech.ixor.calclox.exceptions"><code>CalcLoxRunnerError</code></a></li>
+</ul>
+</dd>
+</dl>
+</section>
 <section class="summary">
 <ul class="summary-list">
 <li>
+<div id="related-package-summary">
+<div class="caption"><span>Related Packages</span></div>
+<div class="summary-table two-column-summary">
+<div class="table-header col-first">Package</div>
+<div class="table-header col-last">Description</div>
+<div class="col-first even-row-color"><a href="ast/package-summary.html">tech.ixor.calclox.ast</a></div>
+<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-first odd-row-color"><a href="exceptions/package-summary.html">tech.ixor.calclox.exceptions</a></div>
+<div class="col-last odd-row-color">&nbsp;</div>
+<div class="col-first even-row-color"><a href="token/package-summary.html">tech.ixor.calclox.token</a></div>
+<div class="col-last even-row-color">&nbsp;</div>
+<div class="col-first odd-row-color"><a href="tools/package-summary.html">tech.ixor.calclox.tools</a></div>
+<div class="col-last odd-row-color">&nbsp;</div>
+</div>
+</div>
+</li>
+<li>
 <div id="class-summary">
-<div class="caption"><span>Classes</span></div>
+<div class="table-tabs" role="tablist" aria-orientation="horizontal"><button id="class-summary-tab0" role="tab" aria-selected="true" aria-controls="class-summary.tabpanel" tabindex="0" onkeydown="switchTab(event)" onclick="show('class-summary', 'class-summary', 2)" class="active-table-tab">All Classes and Interfaces</button><button id="class-summary-tab1" role="tab" aria-selected="false" aria-controls="class-summary.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('class-summary', 'class-summary-tab1', 2)" class="table-tab">Interfaces</button><button id="class-summary-tab2" role="tab" aria-selected="false" aria-controls="class-summary.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('class-summary', 'class-summary-tab2', 2)" class="table-tab">Classes</button><button id="class-summary-tab5" role="tab" aria-selected="false" aria-controls="class-summary.tabpanel" tabindex="-1" onkeydown="switchTab(event)" onclick="show('class-summary', 'class-summary-tab5', 2)" class="table-tab">Exception Classes</button></div>
+<div id="class-summary.tabpanel" role="tabpanel" aria-labelledby="class-summary-tab0">
 <div class="summary-table two-column-summary">
 <div class="table-header col-first">Class</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color class-summary class-summary-tab2"><a href="JavaLibraryTemplate.html" title="class in tech.ixor.calclox">JavaLibraryTemplate</a></div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="AstPrinter.html" title="class in tech.ixor.calclox">AstPrinter</a></div>
 <div class="col-last even-row-color class-summary class-summary-tab2">
-<div class="block">Javadoc for <a href="JavaLibraryTemplate.html" title="class in tech.ixor.calclox"><code>JavaLibraryTemplate</code></a></div>
+<div class="block">The AST Printer for the CalcLox language that prints the generated AST structure from the code.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="CalcLoxRunner.html" title="class in tech.ixor.calclox">CalcLoxRunner</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab2">
+<div class="block">Entry point for executing CalcLox programs in an embedding application.</div>
+</div>
+<div class="col-first even-row-color class-summary class-summary-tab1"><a href="CalculatorFrontend.html" title="interface in tech.ixor.calclox">CalculatorFrontend</a></div>
+<div class="col-last even-row-color class-summary class-summary-tab1">
+<div class="block">Connects a host application to CalcLox input variables and program output.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="Environment.html" title="class in tech.ixor.calclox">Environment</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab2">
+<div class="block">Stores variables for one lexical scope in a CalcLox execution.</div>
+</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="Interpreter.html" title="class in tech.ixor.calclox">Interpreter</a></div>
+<div class="col-last even-row-color class-summary class-summary-tab2">
+<div class="block">Executes resolved CalcLox syntax trees against lexical environments.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab1"><a href="LoxCallable.html" title="interface in tech.ixor.calclox">LoxCallable</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab1">
+<div class="block">Represents a native or user-defined value that CalcLox can invoke.</div>
+</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="LoxFunction.html" title="class in tech.ixor.calclox">LoxFunction</a></div>
+<div class="col-last even-row-color class-summary class-summary-tab2">
+<div class="block">Runtime representation of a user-defined CalcLox function.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="Parser.html" title="class in tech.ixor.calclox">Parser</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab2">
+<div class="block">Builds CalcLox statements and expressions from a token stream.</div>
+</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="Resolver.html" title="class in tech.ixor.calclox">Resolver</a></div>
+<div class="col-last even-row-color class-summary class-summary-tab2">
+<div class="block">Resolves lexical variable references before interpretation.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab5"><a href="Return.html" title="class in tech.ixor.calclox">Return</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab5">
+<div class="block">Internal, stackless control-flow signal used to return from a function body.</div>
+</div>
+<div class="col-first even-row-color class-summary class-summary-tab5"><a href="RuntimeError.html" title="class in tech.ixor.calclox">RuntimeError</a></div>
+<div class="col-last even-row-color class-summary class-summary-tab5">
+<div class="block">Internal execution failure paired with the token that caused it.</div>
+</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="Scanner.html" title="class in tech.ixor.calclox">Scanner</a></div>
+<div class="col-last odd-row-color class-summary class-summary-tab2">
+<div class="block">Converts CalcLox source text into the token stream consumed by <a href="Parser.html" title="class in tech.ixor.calclox"><code>Parser</code></a>.</div>
+</div>
 </div>
 </div>
 </div>

@@ -1,1 +1,5 @@
 tech.ixor.calclox
+tech.ixor.calclox.ast
+tech.ixor.calclox.exceptions
+tech.ixor.calclox.token
+tech.ixor.calclox.tools
