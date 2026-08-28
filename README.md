@@ -62,4 +62,10 @@ seconds, and `eval(string)` evaluates a CalcLox expression in the current progra
 
 ## Resources and credits
 
+Full documentation:
+
+- [Java library usage](docs/library-usage.md)
+- [CalcLox language guide](docs/language-guide.md)
+- [CalcLox language specification](docs/language-specification.md)
+
 - [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom. This book introduces the [Lox language](https://craftinginterpreters.com/the-lox-language.html). This book also contains [a guide for building a tree-walk interpreter](https://craftinginterpreters.com/a-tree-walk-interpreter.html), which was used as a reference for building the CalcLox interpreter.
